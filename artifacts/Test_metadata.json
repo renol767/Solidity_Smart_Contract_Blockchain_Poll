@@ -1,0 +1,88 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_newNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "setNumber",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {
+				"constructor": "Membuat constructor constructor harus public"
+			},
+			"notice": "Untuk Membuat Contract kita menggunakan sintaks berikut"
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"basic.sol": "Test"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"basic.sol": {
+			"keccak256": "0x6d51551f8ab0759cd1e794ff88e3653a325f26a03eb676444890cf3710bb730b",
+			"urls": [
+				"bzz-raw://6a491fc5c47cdbf26ef7ff5a3154d3d131dff8aed74d8cede443354f269a9ef2",
+				"dweb:/ipfs/QmecXk4hXjoUT27AfameJn4kBZw2Th2Lxd1HfenwKgZ6un"
+			]
+		}
+	},
+	"version": 1
+}
